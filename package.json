@@ -2,7 +2,7 @@
   "name": "eslint-config-h3x3d",
   "version": "1.0.0",
   "author": "h3x3d",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^1.10.3",
     "babel-eslint": "^4.1.8"
   }
