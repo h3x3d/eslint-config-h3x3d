@@ -4,6 +4,8 @@ module.exports = {
   'rules': {
     'no-shadow': [0],
     'func-names': [0],
-    'no-param-reassign': [0]
+    'no-param-reassign': [0],
+    'comma-dangle': [0],
+    'new-cap': [0]
   }
 };
