@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "author": "h3x3d",
   "dependencies": {
+    "babel-eslint": "^4.1.8",
     "eslint": "^1.10.3",
-    "babel-eslint": "^4.1.8"
+    "eslint-config-airbnb": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
   }
 }
