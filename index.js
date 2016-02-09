@@ -6,6 +6,7 @@ module.exports = {
     'func-names': [0],
     'no-param-reassign': [0],
     'comma-dangle': [0],
-    'new-cap': [0]
+    'new-cap': [0],
+    'padded-blocks': [0]
   }
 };
