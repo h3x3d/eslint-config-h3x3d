@@ -7,6 +7,7 @@ module.exports = {
     'no-param-reassign': [0],
     'comma-dangle': [0],
     'new-cap': [0],
-    'padded-blocks': [0]
+    'padded-blocks': [0],
+    'no-plusplus': [0]
   }
 };
