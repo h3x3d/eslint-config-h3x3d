@@ -8,6 +8,8 @@ module.exports = {
     'comma-dangle': [0],
     'new-cap': [0],
     'padded-blocks': [0],
-    'no-plusplus': [0]
+    'no-plusplus': [0],
+    'generator-star-spacing': 0,
+    'babel/generator-star-spacing': [2, { 'before': false, 'after': true }]
   }
 };
