@@ -10,6 +10,8 @@ module.exports = {
     'new-cap': [0],
     'padded-blocks': [0],
     'no-plusplus': [0],
+    'arrow-parens': 0,
+    'babel/arrow-parens': [2, 'as-needed'],
     'generator-star-spacing': 0,
     'babel/generator-star-spacing': [2, { 'before': false, 'after': true }]
   }
