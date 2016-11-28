@@ -1,13 +1,11 @@
 module.exports = {
+  'parser': 'babel-eslint',
   'plugins': [
     'react',
     'import',
     'jsx-a11y'
   ],
   'extends': 'airbnb',
-  'parserOptions': {
-    "ecmaVersion": 8
-  },
   'rules': {
     'no-shadow': [0],
     'func-names': [0],
@@ -16,6 +14,7 @@ module.exports = {
     'new-cap': [0],
     'padded-blocks': [0],
     'no-plusplus': [0],
+    'no-underscore-dangle': [0],
     'arrow-parens': 0
   }
 };
