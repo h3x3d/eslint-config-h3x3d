@@ -7,6 +7,12 @@ module.exports = {
   ],
   'extends': 'airbnb',
   'rules': {
+    'no-restricted-syntax': [
+      'error',
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
     'no-shadow': [0],
     'func-names': [0],
     'no-param-reassign': [0],
